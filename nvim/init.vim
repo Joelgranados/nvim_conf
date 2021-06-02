@@ -1,3 +1,4 @@
+" ================ Remap leader =====================
 :let mapleader = ","
 
 " install plugings
@@ -52,5 +53,3 @@ inoremap {<CR> {<CR>}<Esc>O
 set colorcolumn=100
 ":colorscheme morning
 
-" Display tabs and trailing spaces visually
-"set list listchars=tab:\|\ ,trail:·
