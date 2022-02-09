@@ -41,6 +41,8 @@ set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 set expandtab
+set listchars=tab:>·,trail:.,nbsp:.
+set list
 
 " ================ Turn Off Swap Files ==============
 set noswapfile
@@ -53,3 +55,6 @@ inoremap {<CR> {<CR>}<Esc>O
 set colorcolumn=100
 ":colorscheme morning
 
+" ================ Setup local confs ================
+set exrc
+set secure
