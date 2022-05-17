@@ -12,8 +12,8 @@ Plugin 'hrsh7th/nvim-compe'
 Plugin 'nvim-lua/popup.nvim'
 Plugin 'nvim-lua/plenary.nvim'
 Plugin 'nvim-telescope/telescope.nvim'
-Plugin 'kkoomen/vim-doge'
-Plugin 'sheerun/vim-polyglot'
+" Plugin 'kkoomen/vim-doge'
+" Plugin 'sheerun/vim-polyglot'
 
 call vundle#end()
 
