@@ -14,6 +14,7 @@ Plugin 'nvim-lua/plenary.nvim'
 Plugin 'nvim-telescope/telescope.nvim'
 " Plugin 'kkoomen/vim-doge'
 " Plugin 'sheerun/vim-polyglot'
+Plugin 'rhysd/git-messenger.vim'
 
 call vundle#end()
 
