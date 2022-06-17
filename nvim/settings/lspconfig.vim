@@ -8,7 +8,7 @@ vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
   }
 )
 vim.cmd [[autocmd CursorHoldI * silent! lua vim.lsp.buf.signature_help()]]
-vim.cmd [[autocmd CursorHold * silent! lua vim.diagnostic.open_float()]]
+vim.cmd [[autocmd CursorHold * silent! lua vim.diagnostic.open_float(nil, {focus=false})]]
 
 EOF
 
