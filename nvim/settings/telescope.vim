@@ -10,3 +10,7 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 " nnoremap <leader>fm <cmd>Telescope man_pages<cr>
 nnoremap <leader>fgb <cmd>Telescope git_branches<cr>
 " nnoremap <leader>fgs <cmd>Telescope git_stash<cr>
+"
+lua << EOF
+vim.api.nvim_set_hl(0, "TelescopeNormal", {bg="black"})
+EOF
