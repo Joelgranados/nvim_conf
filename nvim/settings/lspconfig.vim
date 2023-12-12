@@ -1,5 +1,7 @@
 lua << EOF
-require'lspconfig'.clangd.setup{}
+require'lspconfig'.clangd.setup{
+  cmd = { 'clangd', '--enable-config'}
+}
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
   vim.lsp.diagnostic.on_publish_diagnostics, {
     virtual_text = false,
