@@ -58,3 +58,6 @@ set colorcolumn=100
 " ================ Setup local confs ================
 set exrc
 set secure
+
+" ================== less annoying ==================
+:nmap <F1> <nop>
